@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Touseef Ahmed’s Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="header-content">
+            <img src="assets/Profie.png" alt="Touseef Ahmed Headshot" class="headshot">
+            <div>
+                <h1>Touseef Ahmed</h1>
+                <p>Student ID: FA21-BSSE-0076</p>
+            </div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="section">
+        <div class="intro">
+            <h2>Welcome to My Portfolio</h2>
+            <p>I am a passionate software developer with a focus on UI/UX design and app development. Explore my
+                MedQueue app project and more below!</p>
+            <div class="medqueue-highlight">
+                <img src="assets/Logo.svg" alt="MedQueue App" class="medqueue-thumb">
+                <div>
+                    <h3>Featured Project: MedQueue</h3>
+                    <p>Hospital queue management made easy. <a href="#projects">See details</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>Hi! I'm Touseef Ahmed, a software engineering student passionate about creating impactful digital solutions.
+            My expertise includes software development, UI/UX design, and mobile app development. I enjoy working with
+            tools like Figma, Adobe XD, and React to bring ideas to life.</p>
+        <p>For the MedQueue project, I utilized Figma for prototyping, Adobe XD for UI design, and React for app
+            development.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>MedQueue</h3>
+            <p>A hospital queue management app designed to streamline patient flow and reduce wait times.</p>
+            <ul class="deliverables">
+                <li><a href="#" target="_blank">Prototype Link</a></li>
+                <li><a href="#" target="_blank">Storyboard</a></li>
+                <li><a href="#" target="_blank">Presentation (PPT)</a></li>
+                <li><a href="#" target="_blank">Elevator Pitch Video</a></li>
+            </ul>
+            <div class="screenshots">
+                <img src="assets/screen1.jpg" alt="App Screen 1">
+                <img src="assets/screen2.jpg" alt="App Screen 2">
+                <img src="assets/screen3.jpg" alt="App Screen 3">
+            </div>
+        </div>
+        <!-- Add more projects here if needed -->
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+        <div class="contact-info">
+            <p>Email: <a href="mailto:touseefahmed@email.com">touseefahmed@email.com</a></p>
+            <p>
+                <a href="#" target="_blank">LinkedIn</a> |
+                <a href="#" target="_blank">GitHub</a>
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p> 2025 Touseef Ahmed.</p>
+        <button id="back-to-top" title="Back to Top">↑</button>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
