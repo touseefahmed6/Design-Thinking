@@ -4,11 +4,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Touseef Ahmed’s Portfolio</title>
+    <title>Touseef Ahmed's Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 
 <body>
+    <!-- Medical Animation Elements -->
+    <div class="animation-container">
+        <div class="heartbeat-icon"><i class="fas fa-heartbeat"></i></div>
+        <div class="medical-cross"><i class="fas fa-plus"></i></div>
+        <div class="hospital-icon"><i class="fas fa-hospital"></i></div>
+        <div class="queue-icon"><i class="fas fa-users"></i></div>
+        <div class="doctor-icon"><i class="fas fa-user-md"></i></div>
+        <div class="pill-icon"><i class="fas fa-pills"></i></div>
+        <div class="ambulance-icon"><i class="fas fa-ambulance"></i></div>
+        <div class="stethoscope-icon"><i class="fas fa-stethoscope"></i></div>
+    </div>
+
     <!-- Header Section -->
     <header>
         <div class="header-content">
@@ -35,7 +48,7 @@
             <p>I am a passionate software developer with a focus on UI/UX design and app development. Explore my
                 MedQueue app project and more below!</p>
             <div class="medqueue-highlight">
-                <img src="assets/Logo.svg" alt="MedQueue App" class="medqueue-thumb">
+                <img src="assets/Logo.jpg" alt="MedQueue App" class="medqueue-thumb">
                 <div>
                     <h3>Featured Project: MedQueue</h3>
                     <p>Hospital queue management made easy. <a href="#projects">See details</a></p>
@@ -50,8 +63,6 @@
         <p>Hi! I'm Touseef Ahmed, a software engineering student passionate about creating impactful digital solutions.
             My expertise includes software development, UI/UX design, and mobile app development. I enjoy working with
             tools like Figma, Adobe XD, and React to bring ideas to life.</p>
-        <p>For the MedQueue project, I utilized Figma for prototyping, Adobe XD for UI design, and React for app
-            development.</p>
     </section>
 
     <!-- Projects Section -->
@@ -61,15 +72,16 @@
             <h3>MedQueue</h3>
             <p>A hospital queue management app designed to streamline patient flow and reduce wait times.</p>
             <ul class="deliverables">
-                <li><a href="#" target="_blank">Prototype Link</a></li>
-                <li><a href="#" target="_blank">Storyboard</a></li>
-                <li><a href="#" target="_blank">Presentation (PPT)</a></li>
-                <li><a href="#" target="_blank">Elevator Pitch Video</a></li>
+                <li><a href="https://www.figma.com/proto/btqs1XNCdfOUfoGSoYbMVF/Design-Thinking?node-id=0-1&t=QoecMP7KP0Xjo39E-1" target="_blank" rel="noopener noreferrer">Prototype Link</a></li>
+                <li><a href="https://www.canva.com/design/DAGlYU93F4w/yBgdOl5vhPrD7i0oJa5ipg/view?utm_content=DAGlYU93F4w&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=he2174d8338" target="_blank" rel="noopener noreferrer">Storyboard</a></li>
+                <li><a href="https://docs.google.com/presentation/d/19lxv8ITQqik5_dwrU6r7oUqKk7NpCQ5W/edit?usp=drive_link&ouid=114635038179748581606&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer">Presentation (PPT)</a></li>
+                <li><a href="https://www.canva.com/design/DAGlqtFPo_g/YxgpV_414hkreVYGs9slLA/watch?utm_content=DAGlqtFPo_g&utm_campaign=designshare&utm_medium=link2&utm_source=uniquelinks&utlId=hed4ee1feee" target="_blank" rel="noopener noreferrer">Elevator Pitch Video</a></li>
+                <li><a href="https://docs.google.com/document/d/1Go1-RT7CS1IjPj4a0F5FV0ilymzjOhFyyQf7VsXJWes/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Written Reflection (Docs)</a></li>
             </ul>
             <div class="screenshots">
-                <img src="assets/screen1.jpg" alt="App Screen 1">
-                <img src="assets/screen2.jpg" alt="App Screen 2">
-                <img src="assets/screen3.jpg" alt="App Screen 3">
+                <img src="assets/Onboarding.jpg" alt="App Screen 1">
+                <img src="assets/Home Screen after Token Creation.jpg" alt="App Screen 2">
+                <img src="assets/Visit History.jpg" alt="App Screen 3">
             </div>
         </div>
         <!-- Add more projects here if needed -->
@@ -88,11 +100,7 @@
             <button type="submit">Send Message</button>
         </form>
         <div class="contact-info">
-            <p>Email: <a href="mailto:touseefahmed@email.com">touseefahmed@email.com</a></p>
-            <p>
-                <a href="#" target="_blank">LinkedIn</a> |
-                <a href="#" target="_blank">GitHub</a>
-            </p>
+            <p>Email: <a href="mailto:fa21bsse0076@maju.edu.pk" rel="noopener noreferrer">fa21bsse0076@maju.edu.pk</a></p>
         </div>
     </section>
 
@@ -101,6 +109,16 @@
         <p> 2025 Touseef Ahmed.</p>
         <button id="back-to-top" title="Back to Top">↑</button>
     </footer>
+
+    <!-- Queue Animation -->
+    <div class="queue-animation">
+        <div class="patient patient-1"></div>
+        <div class="patient patient-2"></div>
+        <div class="patient patient-3"></div>
+        <div class="patient patient-4"></div>
+        <div class="patient patient-5"></div>
+        <div class="doctor"></div>
+    </div>
 
     <script src="script.js"></script>
 </body>
